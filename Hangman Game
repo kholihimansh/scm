@@ -13,7 +13,7 @@ print ("Start guessing...")
 time.sleep(0.5)
 
 #here we set the secret. You can select any word to play with. 
-word = ("secret")
+word = random.randint("secret","Second")
 
 #creates an variable with an empty value
 guesses = ''
